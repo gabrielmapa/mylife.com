@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: bradley hand, cursive;
+}
+.mycontent{
+    width: 90%;
+    height: 680px;
+    position: relative;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.btn-box{
+    display: flex;
+    border-bottom: 1px solid rgb(175, 237, 248);
+    border-top: 1px solid rgb(175, 237, 248);
+}
+.btn-box button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(216, 243, 247);
+}
+.btn-box .fa {
+    margin-right: 20px
+}
+.btn-box button:hover {
+    background-color: rgb(182, 124, 16);
+}
+.btn-box button:active {
+    background-color: rgb(184, 121, 77);
+}
+.header1 {
+    text-align: center;
+}
+.header2 {
+    text-align: center;
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    position: absolute;  
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+.content-left {
+    flex-basis: 50%;
+}
+.content-left p{
+    font-size: 14px;
+    padding: 5px 0;
+}
+.content-left a{
+    width: 150px;
+    display: block;
+    padding: 8px 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: rgb(159, 221, 236);
+    color: rgb(14, 15, 15);
+    text-align: center;
+    margin: 4px;
+}
+.content-right a{
+    width: 150px;
+    display: block;
+    padding: 8px 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: rgb(159, 221, 236);
+    color: rgb(14, 15, 15);
+    text-align: center;
+    margin: 4px;
+}
+.content-right {
+    flex-basis: 50%;
+    text-align: center;
+}
+#tab1{
+    transform: translateX(0px);
+}
+
